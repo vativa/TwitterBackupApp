@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-npm-debug.log*
+npm-debug.*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
