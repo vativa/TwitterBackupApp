@@ -1,16 +1,19 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
+import AppInfo from '../components/AppInfo';
+import LoginForm from '../components/LoginForm';
 
 const LandingScreen = ({}) => {
-  return <>
-    <Text style={styles.text}>LandingScreen</Text>
-  </>
+  return <ScrollView style={styles.container}>
+    <AppInfo />
+    <LoginForm />
+  </ScrollView>;
 };
 
 const styles = StyleSheet.create({
-  text: {
-    fontSize: 20,
-  }
+  container: {
+    flex: 1,
+  },
 });
 
 export default LandingScreen;
