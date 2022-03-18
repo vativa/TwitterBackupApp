@@ -1,7 +1,7 @@
-POST https://example.com/comments HTTP/1.1
-content-type: application/json
+API Key          JOBjnO6qKRqAJWGlE9nUM7rpm
+API Key Secret   ILVobAXWPX7GgcyBziurFmlaQL7bDXMW5zaDEscCdmFqLYykVh
 
-{
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
-}
+###
+
+GET https://api.twitter.com/2/tweets/20
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRraQEAAAAAZ%2FPlHNOtO1fuRH2WidAKT9uoivQ%3DI1EkWG4yDk8ozJFoiBlsJ4AcRwsIkmX9HxdY6gquEsCeIr4lNO
