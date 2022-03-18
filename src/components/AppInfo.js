@@ -5,10 +5,8 @@ const AppInfo = ({ style }) => {
   const [packageJson, setPackageJson] = useState(null);
   
   useEffect(() => {
-    const packageJson = require('../../package.json');
-    console.log('>>> ', packageJson);
-    setPackageJson(packageJson);
-  });
+    setPackageJson(require('../../package.json'));
+  }, []);
   
   return <View style={[styles.info, style]}>
     <Text style={styles.text}>
