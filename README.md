@@ -21,3 +21,12 @@ Application where users can store the posts of their favorite Twitter users and 
 
 ### 3.2 Review tweets
 - [ ] Users must be able to see the text of each downloaded tweet. Users must also be able to read a tweet's metadata or **delete the tweet from the application**.
+
+## 4 How to run TwitterBackupApp
+To run the project, navigate to the directory and run one of the following npm commands.
+- cd TwitterBackupApp
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios
+- npm run web
+- or use your physical device to scan the QR code and open via Expo
